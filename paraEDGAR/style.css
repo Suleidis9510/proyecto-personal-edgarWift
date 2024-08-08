@@ -1,0 +1,52 @@
+body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.principal {
+  width: 40%;
+  height: 90vh;
+  justify-content: center;
+  margin-left: 600px;
+  background-color: rgb(242, 239, 245);
+  border-radius: 30px;
+}
+
+#ratoncito {
+  width: 350px;
+  margin-left: 300px;
+  margin-right: 300px;
+  cursor: pointer; /* Añade el cursor de puntero al pasar sobre la imagen */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  border: 2px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(162, 87, 232);
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(207, 37, 147);
+  font-family: "Dancing Script", cursive;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  font-size: 40px;
+}
